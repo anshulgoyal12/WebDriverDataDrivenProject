@@ -60,7 +60,7 @@ public class TestCore {
 			
 		
 			}*/  // Internet Explorer Code
-			//Browser Code Comment
+			
 				driver.get(config.getProperty("testsite"));
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				driver.manage().window().maximize();
