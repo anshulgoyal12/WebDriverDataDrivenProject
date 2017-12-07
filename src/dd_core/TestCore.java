@@ -53,13 +53,13 @@ public class TestCore {
 				
 				System.setProperty("webdriver.chrome.driver", "C:\\Users\\indianic\\Desktop\\Selenium\\chromedriver_win32 (4)\\chromedriver.exe");
 				driver = new ChromeDriver();
-			}/*else if(config.getProperty("Browser").equals("ie")){
+			}else if(config.getProperty("Browser").equals("ie")){
 				
 				System.setProperty("webdriver.ie.driver", "C:\\Users\\indianic\\Desktop\\Selenium\\IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 			
 		
-			}*/  // Internet Explorer Code
+			} 
 			
 				driver.get(config.getProperty("testsite"));
 				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
