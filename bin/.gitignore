@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /dd_core/
 /dd_logs/
 /dd_properties/
@@ -6,3 +7,7 @@
 /log4j.properties
 /rough/
 /xslt/
+=======
+/dd_tests/
+/dd_core/
+>>>>>>> refs/heads/Development
