@@ -34,7 +34,7 @@ public class TestCore {
 			
 			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\dd_properties\\config.properties");
 			config.load(fis);
-			app_logs.debug("Loading the Config Properties");
+			//app_logs.debug("Loading the Config Properties");
 			
 			
 			
