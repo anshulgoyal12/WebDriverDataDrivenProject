@@ -38,7 +38,7 @@ public class ProfileTest extends TestCore{
 		Actions action = new Actions(driver);
 		action.moveToElement(element).build().perform();
 		
-		driver.findElement(By.xpath(object.getProperty("Profilelink"))).click();
+		//driver.findElement(By.xpath(object.getProperty("Profilelink"))).click();
 		
 		//driver.findElement(By.xpath(object.getProperty("ViewAllLink"))).click();
 		Thread.sleep(5000);
